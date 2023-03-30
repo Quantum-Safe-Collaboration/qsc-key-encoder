@@ -591,7 +591,7 @@ static const qsc_encoding_impl_t Dilithium_R3_8x7_aes_encodings_arr[] = {
 };
 
 const qsc_encoding_t Dilithium_R3_4x4_encodings = {
-    .algorithm_name = "Dilithium2",
+    .algorithm_name = QSC_ALGORITHM_SIG_DILITHIUM_R3_4x4_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_SIG_DILITHIUM_R3_4x4_OID_STR,
     .encodings_len = sizeof(Dilithium_R3_4x4_encodings_arr) / sizeof(Dilithium_R3_4x4_encodings_arr[0]),
     .encoding = Dilithium_R3_4x4_encodings_arr,
@@ -601,7 +601,7 @@ const qsc_encoding_t Dilithium_R3_4x4_encodings = {
 };
 
 const qsc_encoding_t Dilithium_R3_6x5_encodings = {
-    .algorithm_name = "Dilithium3",
+    .algorithm_name = QSC_ALGORITHM_SIG_DILITHIUM_R3_6x5_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_SIG_DILITHIUM_R3_6x5_OID_STR,
     .encodings_len = sizeof(Dilithium_R3_6x5_encodings_arr) / sizeof(Dilithium_R3_6x5_encodings_arr[0]),
     .encoding = Dilithium_R3_6x5_encodings_arr,
@@ -611,7 +611,7 @@ const qsc_encoding_t Dilithium_R3_6x5_encodings = {
 };
 
 const qsc_encoding_t Dilithium_R3_8x7_encodings = {
-    .algorithm_name = "Dilithium5",
+    .algorithm_name = QSC_ALGORITHM_SIG_DILITHIUM_R3_8x7_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_SIG_DILITHIUM_R3_8x7_OID_STR,
     .encodings_len = sizeof(Dilithium_R3_8x7_encodings_arr) / sizeof(Dilithium_R3_8x7_encodings_arr[0]),
     .encoding = Dilithium_R3_8x7_encodings_arr,
@@ -621,7 +621,7 @@ const qsc_encoding_t Dilithium_R3_8x7_encodings = {
 };
 
 const qsc_encoding_t Dilithium_R3_4x4_AES_encodings = {
-    .algorithm_name = "Dilithium2_AES",
+    .algorithm_name = QSC_ALGORITHM_SIG_DILITHIUM_R3_4x4_AES_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_SIG_DILITHIUM_R3_4x4_AES_OID_STR,
     .encodings_len = sizeof(Dilithium_R3_4x4_aes_encodings_arr) / sizeof(Dilithium_R3_4x4_aes_encodings_arr[0]),
     .encoding = Dilithium_R3_4x4_aes_encodings_arr,
@@ -631,7 +631,7 @@ const qsc_encoding_t Dilithium_R3_4x4_AES_encodings = {
 };
 
 const qsc_encoding_t Dilithium_R3_6x5_AES_encodings = {
-    .algorithm_name = "Dilithium3_AES",
+    .algorithm_name = QSC_ALGORITHM_SIG_DILITHIUM_R3_6x5_AES_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_SIG_DILITHIUM_R3_6x5_AES_OID_STR,
     .encodings_len = sizeof(Dilithium_R3_6x5_aes_encodings_arr) / sizeof(Dilithium_R3_6x5_aes_encodings_arr[0]),
     .encoding = Dilithium_R3_6x5_aes_encodings_arr,
@@ -641,7 +641,7 @@ const qsc_encoding_t Dilithium_R3_6x5_AES_encodings = {
 };
 
 const qsc_encoding_t Dilithium_R3_8x7_AES_encodings = {
-    .algorithm_name = "Dilithium5_AES",
+    .algorithm_name = QSC_ALGORITHM_SIG_DILITHIUM_R3_8x7_AES_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_SIG_DILITHIUM_R3_8x7_AES_OID_STR,
     .encodings_len = sizeof(Dilithium_R3_8x7_aes_encodings_arr) / sizeof(Dilithium_R3_8x7_aes_encodings_arr[0]),
     .encoding = Dilithium_R3_8x7_aes_encodings_arr,

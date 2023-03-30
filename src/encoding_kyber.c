@@ -331,7 +331,7 @@ static const qsc_encoding_impl_t Kyber1024_encoding_arr[] = {
 };
 
 const qsc_encoding_t Kyber512_encoding = {
-    .algorithm_name = "kyber512",
+    .algorithm_name = QSC_ALGORITHM_KEM_KYBER_512_R3_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_KEM_KYBER_512_R3_OID_STR,
     .encodings_len = sizeof(Kyber512_encoding_arr) / sizeof(Kyber512_encoding_arr[0]),
     .encoding = Kyber512_encoding_arr,
@@ -341,7 +341,7 @@ const qsc_encoding_t Kyber512_encoding = {
 };
 
 const qsc_encoding_t Kyber768_encoding = {
-    .algorithm_name = "kyber768",
+    .algorithm_name = QSC_ALGORITHM_KEM_KYBER_768_R3_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_KEM_KYBER_768_R3_OID_STR,
     .encodings_len = sizeof(Kyber768_encoding_arr) / sizeof(Kyber768_encoding_arr[0]),
     .encoding = Kyber768_encoding_arr,
@@ -351,7 +351,7 @@ const qsc_encoding_t Kyber768_encoding = {
 };
 
 const qsc_encoding_t Kyber1024_encoding = {
-    .algorithm_name = "kyber1024",
+    .algorithm_name = QSC_ALGORITHM_KEM_KYBER_1024_R3_NAME,
     .algorithm_oid_str = QSC_ALGORITHM_KEM_KYBER_1024_R3_OID_STR,
     .encodings_len = sizeof(Kyber1024_encoding_arr) / sizeof(Kyber1024_encoding_arr[0]),
     .encoding = Kyber1024_encoding_arr,

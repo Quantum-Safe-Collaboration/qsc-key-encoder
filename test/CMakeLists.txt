@@ -11,9 +11,9 @@ add_test(Dilithium2_aes_draft-uni-qsckeys-dilithium-00 qsc_key_encoder_test Dili
 add_test(Dilithium3_aes_draft-uni-qsckeys-dilithium-00 qsc_key_encoder_test Dilithium3_AES draft-uni-qsckeys-dilithium-00/p8-spki)
 add_test(Dilithium5_aes_draft-uni-qsckeys-dilithium-00 qsc_key_encoder_test Dilithium5_AES draft-uni-qsckeys-dilithium-00/p8-spki)
 
-add_test(Kyber512_draft-uni-qsckeys-kyber-00 qsc_key_encoder_test kyber512 draft-uni-qsckeys-kyber-00/p8-spki)
-add_test(Kyber768_draft-uni-qsckeys-kyber-00 qsc_key_encoder_test kyber768 draft-uni-qsckeys-kyber-00/p8-spki)
-add_test(Kyber1024_draft-uni-qsckeys-kyber-00 qsc_key_encoder_test kyber1024 draft-uni-qsckeys-kyber-00/p8-spki)
+add_test(Kyber512_draft-uni-qsckeys-kyber-00 qsc_key_encoder_test Kyber512 draft-uni-qsckeys-kyber-00/p8-spki)
+add_test(Kyber768_draft-uni-qsckeys-kyber-00 qsc_key_encoder_test Kyber768 draft-uni-qsckeys-kyber-00/p8-spki)
+add_test(Kyber1024_draft-uni-qsckeys-kyber-00 qsc_key_encoder_test Kyber1024 draft-uni-qsckeys-kyber-00/p8-spki)
 
 add_test(Falcon512_draft-uni-qsckeys-falcon-00 qsc_key_encoder_test Falcon512 draft-uni-qsckeys-falcon-00/p8-spki)
 add_test(Falcon1024_draft-uni-qsckeys-falcon-00 qsc_key_encoder_test Falcon1024 draft-uni-qsckeys-falcon-00/p8-spki)
@@ -66,9 +66,9 @@ add_test(Dilithium2_aes_draft-uni-qsckeys-dilithium-00/sk-pk qsc_key_encoder_tes
 add_test(Dilithium3_aes_draft-uni-qsckeys-dilithium-00/sk-pk qsc_key_encoder_test Dilithium3_AES draft-uni-qsckeys-dilithium-00/sk-pk)
 add_test(Dilithium5_aes_draft-uni-qsckeys-dilithium-00/sk-pk qsc_key_encoder_test Dilithium5_AES draft-uni-qsckeys-dilithium-00/sk-pk)
 
-add_test(Kyber512_draft-uni-qsckeys-kyber-00/sk-pk qsc_key_encoder_test kyber512 draft-uni-qsckeys-kyber-00/sk-pk)
-add_test(Kyber768_draft-uni-qsckeys-kyber-00/sk-pk qsc_key_encoder_test kyber768 draft-uni-qsckeys-kyber-00/sk-pk)
-add_test(Kyber1024_draft-uni-qsckeys-kyber-00/sk-pk qsc_key_encoder_test kyber1024 draft-uni-qsckeys-kyber-00/sk-pk)
+add_test(Kyber512_draft-uni-qsckeys-kyber-00/sk-pk qsc_key_encoder_test Kyber512 draft-uni-qsckeys-kyber-00/sk-pk)
+add_test(Kyber768_draft-uni-qsckeys-kyber-00/sk-pk qsc_key_encoder_test Kyber768 draft-uni-qsckeys-kyber-00/sk-pk)
+add_test(Kyber1024_draft-uni-qsckeys-kyber-00/sk-pk qsc_key_encoder_test Kyber1024 draft-uni-qsckeys-kyber-00/sk-pk)
 
 add_test(Falcon512_draft-uni-qsckeys-falcon-00/sk-pk qsc_key_encoder_test Falcon512 draft-uni-qsckeys-falcon-00/sk-pk)
 add_test(Falcon1024_draft-uni-qsckeys-falcon-00/sk-pk qsc_key_encoder_test Falcon1024 draft-uni-qsckeys-falcon-00/sk-pk)
